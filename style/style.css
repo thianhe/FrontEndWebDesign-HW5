@@ -1,0 +1,354 @@
+*{padding:0;margin:0;}
+.clear{
+    clear: both;
+}
+body {
+    margin: 0 auto;
+    /*width:  1260px;*/
+    height: 2200px;
+}
+.page{
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 35px;
+
+}
+br {
+      line-height: 110%;
+}
+::placeholder {
+    color: gray;
+    opacity: 10; /* Firefox */
+}
+.upperPart {
+    width: 100%;
+    height: 26%;
+    background: url(../img/livingroom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.logo{
+    max-width: 55px;
+    max-height: 55px;
+
+    margin: 26px;
+}
+.searchBox{
+    background-color: white;
+    border-radius: 3px;
+    width: 450px;
+    height: 360px;
+    padding: 35px;
+    margin-left: 170px;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    line-height: 50px;
+    font-size: 32px;
+}
+.searchBox p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+}
+.searchBox label{
+    font-family: 'Raleway', sans-serif;
+    color: #868d90;
+    font-size: 13px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 18px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 412px;
+    height: 12px;
+}
+#checkInBorder{
+    width: 50%;
+    width:213px;
+    float: left;
+}
+#checkInBorder input[type=text],#checkOutBorder input[type=text], select{
+    width: 100%;
+    padding: 12px 30px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+    height: 12px;
+}
+#checkOutBorder{
+    width: 50%;
+    width:213px;
+    float: right;
+}
+
+#adultBorder{
+    width:212px;
+    margin-right:26px;
+    height:70px;
+    float:left;
+}
+#childrenBorder{
+    width:212;
+    height:70px;
+    float:left;
+}
+.adultselectpicker{
+    width:212px;
+    height: 12px;
+}
+.childselectpicker{
+    width:212px;
+    height: 12px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #ff5a5f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FF373B;
+}
+.secondPart{
+    height:580px;
+    margin-top: 20px;
+}
+p{
+    font-family: Arial Black;
+    font-size: 26px;
+}
+.review{
+    width:450px;
+    float: left;
+}
+.icon1{
+    margin-top:20px;
+
+}
+.review p{
+    font-size:20px;
+    margin-top: 26px;
+    font-family :Arial Black;
+    width:230px;
+    margin-right: 150px;
+    float: right;
+    line-height: 1;
+}
+
+.trophy p{
+    font-size:20px;
+    margin-top: 26px;
+    font-family :Arial Black;
+    width:250px;
+    margin-right:420px;
+    float: right;
+    line-height: 1;
+}
+.pp{
+    font-size:11px;
+    font-family:'Raleway', sans-serif;
+    color:#666666;
+}
+.islandPic,.riversidePic,.woodlandPic{
+    width: 370px;
+    height:256px;
+}
+.profilePic{
+    float: left;
+}
+.profilePic p{
+    font-size:20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family :Arial Black;
+    float: right;
+    line-height: 1;
+}
+.secondPart a{
+    color:black;
+    text-decoration:none;
+}
+.island{
+    margin-top: 35px;
+    margin-right:17px;
+    width: 370px;
+    height: 435px;
+    float: left;
+}
+.riverside{
+    margin-top: 35px;
+    margin-left:17px;
+    margin-right:17px;
+    width: 370px;
+    height: 435px;
+    float: left;
+}
+.woodland{
+    margin-top: 35px;
+    margin-left:17px;
+    width: 370px;
+    height: 435px;
+    float: left;
+}
+.ppp{
+    font-size:11px;
+    font-family:'Raleway', sans-serif;
+    color:#666666;
+}
+
+.thirdPart{
+    height:300px;
+    background-color: rgba(255, 249, 244);
+}
+
+.love{
+    margin-right:17px;
+    width: 370px;
+    height: 220px;
+    float: left;
+}
+.home{
+    margin-left:17px;
+    margin-right:17px;
+    width: 370px;
+    height: 220px;
+    float: left;
+}
+.person{
+    margin-left:17px;
+    width: 370px;
+    height: 220px;
+    float: left;
+}
+
+.forthPart{
+    height:420px;
+    background-color: #fef1e7;
+}
+.livingroom2,.beach,.livingroom3{
+    width:279px;
+    margin-right:20px;
+    float: left;
+}
+.woodland2{
+    width:279px;
+    float: left;
+}
+.livingroom2Pic,.beachPic,.livingroom3Pic,.woodland2Pic{
+    width: 279px;
+    height:180px;
+}
+.forthPartp{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+}
+.forthPartpp{
+    font-family: Arial Black;
+    font-size: 20px;
+}
+.forthPartppp{
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+}
+.forthPart br{
+    line-height: 124%;
+}
+.forthPart a{
+    text-decoration: none;
+}
+.woodland2Pic{
+    filter:blur(1.5px);
+    position: relative;
+    width: 100%;
+}
+
+.woodland2 p {
+  position: fixed;
+}
+.fifthPart{
+    height:140px;
+    background-color: #ff5a5f;
+}
+.words{
+    width: 1030px;
+    float:left;
+}
+.addDateButton a:link, a:visited {
+    margin-top: 37px;
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 23px;
+    font-family: 'Tajawal', sans-serif;
+}
+.addDateButton a:hover, .addDateButton a:active {
+    background-color: #ff5a5f;
+    color:white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.sixthPart{
+    height: 270px;
+}
+.airbnb, .discover, .hosting,.fiticon{
+    width:294px;
+    height:240px;
+    margin-top: 25px;
+    float: left;
+}
+.sixthPart a, .footericon a{
+    font-size: 18px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration:none;
+}
+.fbicon,.twiicon{
+    float:left;
+    width:47px;
+    height:47px;
+    margin-right:10px;
+}
+.igicon{
+    float:left;
+    width:60px;
+    height:47px;
+    margin-right:10px;
+}
+.airbnbicon{
+    margin-top: 20px;
+    float: left;
+}
+.airicon{
+    width:6%;
+    float: left;
+}
+.airbnbicon p{
+    font-size:20px;
+    margin: 7px;
+    font-family :Arial Black;
+    float: left;
+    line-height: 1;
+}
+.languagebar{
+    margin-top: 20px;
+    float:right;
+    width:320px;
+}
+.lanbar{
+    float: left;
+}
+.moneybar{
+    float: right;
+}
