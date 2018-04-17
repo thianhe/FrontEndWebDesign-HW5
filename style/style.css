@@ -11,7 +11,6 @@ body {
     margin-left: 170px;
     margin-right: 170px;
     margin-bottom: 35px;
-
 }
 br {
       line-height: 110%;
@@ -99,18 +98,22 @@ input[type=text], select {
 }
 .adultselectpicker{
     width:212px;
-    height: 12px;
+    height: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 .childselectpicker{
     width:212px;
-    height: 12px;
+    height: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 input[type=submit] {
     width: 100%;
     background-color: #ff5a5f;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 12px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -240,13 +243,24 @@ p{
     margin-right:20px;
     float: left;
 }
-.woodland2{
-    width:279px;
-    float: left;
-}
+
 .livingroom2Pic,.beachPic,.livingroom3Pic,.woodland2Pic{
     width: 279px;
     height:180px;
+}
+.woodland2{
+    width:279px;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+}
+
+.seeAll{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .forthPartp{
     font-family: 'Tajawal', sans-serif;
@@ -264,6 +278,7 @@ p{
     line-height: 124%;
 }
 .forthPart a{
+    color:black;
     text-decoration: none;
 }
 .woodland2Pic{
@@ -313,17 +328,18 @@ p{
     font-size: 18px;
     font-family: 'Tajawal', sans-serif;
     text-decoration:none;
+    color: inherit;
 }
 .fbicon,.twiicon{
     float:left;
-    width:47px;
-    height:47px;
+    width:20%;
     margin-right:10px;
 }
 .igicon{
     float:left;
-    width:60px;
+    width:65px;
     height:47px;
+    margin-top:6px;
     margin-right:10px;
 }
 .airbnbicon{
@@ -348,7 +364,19 @@ p{
 }
 .lanbar{
     float: left;
+
 }
 .moneybar{
     float: right;
+
+}
+.languageselectpicker{
+    height: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.moneyselectpicker{
+    height: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
