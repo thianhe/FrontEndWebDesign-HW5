@@ -220,6 +220,17 @@ p{
     height: 220px;
     float: left;
 }
+.love p,.home p,.person p{
+    margin-top: 10px;
+    font-size:18px;
+    font-family: Arial;
+    color:#666666;
+}
+#pp{
+    font-size:17px;
+    font-family: Arial;
+    color:#666666;
+}
 .home{
     margin-left:17px;
     margin-right:17px;
